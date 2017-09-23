@@ -7,5 +7,5 @@ exports.abs = function(number){
 };
 
 exports.circleArea = function(radius) {
-	return Math.ROUND(radius * radius * Math.PI);
+	return radius * radius * Math.PI;
 };
